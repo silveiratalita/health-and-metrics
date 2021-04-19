@@ -1,5 +1,5 @@
 {
-  "name": "health",
+  "name": "healthAndMetrics",
   "version": "1.0.0",
   "description": "Projeto endpoint",
   "main": "index.js",
