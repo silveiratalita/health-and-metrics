@@ -1,0 +1,30 @@
+{
+  "name": "health",
+  "version": "1.0.0",
+  "description": "Projeto endpoint",
+  "main": "index.js",
+  "author": "Talita",
+  "license": "MIT",
+  "scripts": {
+    "cover": "nyc --reporter=lcov jasmine",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "eslint src/** --ext .js --ignore-pattern src/key/*.pem",
+    "start": "node src/index.js",
+    "dev": "nodemon -r dotenv/config src/index.js dotenv_config_path=./env/local.env"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "dotenv": "^8.0.0",
+    "eslint": "^6.0.1",
+    "eslint-config-google": "^0.13.0",
+    "eslint-config-prettier": "^6.0.0",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.18.2"
+  },
+  "files": [
+    "src/**/*"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
