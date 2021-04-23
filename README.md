@@ -9,7 +9,7 @@ Return {
     "counter": 1
 }
 
-GET/health=>must return 200 status code.
+GET/health=>retorna status 200.
 
 # get start
 1. Tenha o docker instalado
