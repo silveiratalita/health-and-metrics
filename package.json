@@ -6,7 +6,6 @@
   "author": "Talita",
   "license": "MIT",
   "scripts": {
-    "cover": "nyc --reporter=lcov jasmine",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "eslint src/** --ext .js --ignore-pattern src/key/*.pem",
     "start": "node src/index.js",
